@@ -1,13 +1,13 @@
 #!/bin/sh
 # ------------------------------------------------------------------
-# [Kevin Fowlks] 
+#   Author [Kevin Fowlks] 
 #  
-# 08/05/2015
+#   Date 08/05/2015
 #
-# My dotbash Files in Git repo
+#   My dotbash Files in Git repo
 #
 #   This script links all of your home .bash files to the .bash directory maintained in Git.
-#   The script is written in (sh)ell so that it can be installed without the needing bash 
+#   The script is written in (sh)ell so that it can be installed without needing BASH 
 #   installed. 
 #   
 #   Usage: ./install {Must be run from install dir}
