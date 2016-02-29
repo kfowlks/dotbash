@@ -44,7 +44,7 @@ for filename in ${BASH_FILES[@]} ; do
       check_errs $? "Failed to rename old $filename to$filename-old-$NOW"
   fi
 
-  ln -s ~/.bash/$filename ~/$filename
+  ln -s ~/dotbash/$filename ~/$filename
   check_errs $? "Failed to link to $filename in $HOME"
 
 done
